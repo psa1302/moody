@@ -2,6 +2,7 @@ import { useEffect, useState } from 'react'
 
 const USER_LIST_URL = 'https://jsonplaceholder.typicode.com/users'
 
+//Hook to fetch user data
 export function useGetUsers() {
   const [loading, setLoading] = useState(false)
   const [error, setError] = useState(false)
